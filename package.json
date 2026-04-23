@@ -6,7 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/cors": "^1.4.1",
+    "@elysiajs/openapi": "^1.4.14",
+    "elysia": "latest",
+    "env-var": "^7.5.0",
+    "nodemailer": "^8.0.5"
   },
   "devDependencies": {
     "bun-types": "latest"
